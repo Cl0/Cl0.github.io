@@ -1,0 +1,122 @@
+.jumbotron {
+    background-image: url("./images/pink_rottness.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    padding-top: 2rem;
+}
+
+.jumbotron h1 {
+    color: #fff;
+    font-family: "Satisfy", cursive;
+    font-size: 8.5rem;
+        
+}
+
+nav li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;    
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 10px;
+    display: block;
+    
+}
+
+nav ul li a:hover, nav ul li a.active {
+    color: #FFB6C1;
+    background-color: grey;
+    border-radius: 12px;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.section {
+    margin-top: 7rem;
+}
+
+.section h2, .section h3, .modal h2, .modal h3, .modal label, h1 {
+    font-weight: bold;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #808080;
+}
+
+.section h2 {
+    font-size: 2.25rem;
+}
+
+.section h3 {
+    font-size: 1.5rem;
+    color: #808080;
+
+}
+
+.section p {
+    font-size: 0.875rem;
+    color: #808080;      
+}
+
+#about img {
+    padding-top: 7px;
+    padding-bottom: 50px;
+    width:100%;
+    max-width: 300px;
+}
+
+#hobbies p {
+    max-width: 300px;
+    padding-bottom: 30px;
+}
+
+#hobbies img {
+    max-width: 300px;
+    width: 100%;
+
+}
+
+#contact h3 {
+    padding-bottom: 60px;
+}
+
+#contact a:hover {
+    text-decoration: none;
+}
+
+.text-pink {
+    color: pink;    
+}
+
+.card-title, .card-text {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #808080;
+}
+
+.portfolio-nav {
+    background: black; 
+}
+
+.fa-stack-cxl {
+    font-size: 7.5rem;
+}
+
+#contact .contact-linkedin .fa-circle {
+    color: #a44b73;
+}
+
+#contact .contact-form .fa-circle {
+    color: #d581a1;
+}
+
+#contact .contact-github i.fa-github {
+    color: pink;
+}
+
+footer {
+    background-color: #000;
+    min-height: 100px;    
+}
+
+
